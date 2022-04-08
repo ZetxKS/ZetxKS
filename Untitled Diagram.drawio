@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2022-04-08T12:36:24.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.119 YaBrowser/22.3.0.2430 Yowser/2.5 Safari/537.36" version="17.4.1" etag="euO2gLPVqW64yrCsEqKd" type="github"><diagram id="jWCKpb-Dj5ZuqblSX8VO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-08T13:45:30.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.119 YaBrowser/22.3.0.2430 Yowser/2.5 Safari/537.36" etag="s5p6A9BLj8MJtVsTmNGE" version="17.4.1" type="github">
+  <diagram id="jWCKpb-Dj5ZuqblSX8VO" name="Page-1">
+    <mxGraphModel dx="1422" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-1" value="1C выгружает файлы картинок по протоколу FTP в директорию на сервере vs01.karatov.ru /srv/www/bitrix-upload/import-images/topaz-sync/" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lw-a6cB2GxTjt1xY8aOZ-2" target="lw-a6cB2GxTjt1xY8aOZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-2" value="1C выгружает карточку товара через брокера RabbitMQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lw-a6cB2GxTjt1xY8aOZ-3" target="lw-a6cB2GxTjt1xY8aOZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-3" value="Скрипт на сайте читает сообщение RabbitMQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="130" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lw-a6cB2GxTjt1xY8aOZ-5" target="lw-a6cB2GxTjt1xY8aOZ-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-5" value="Тип сообщения" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="230" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-8" value="Разбор сообщения" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-9" value="Карточка товара" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lw-a6cB2GxTjt1xY8aOZ-8" target="lw-a6cB2GxTjt1xY8aOZ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lw-a6cB2GxTjt1xY8aOZ-11" target="lw-a6cB2GxTjt1xY8aOZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lw-a6cB2GxTjt1xY8aOZ-11" target="lw-a6cB2GxTjt1xY8aOZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-11" value="По полю Сайт_наименование происходит поиск фото в директории /srv/www/bitrix-upload/import-images/topaz-sync" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="410" width="185" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-13" value="Возвращает ошибку в лог" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-14" value="Средствами Bitrix картинка добавляется к карточке товара, а именно: картинке присваивается уникальное шифрованное имя, перемещается в директорию /srv/www/bitrix-upload/###/****&lt;br&gt;где ### и **** - битриксовые наименования&lt;br&gt;Делает запись в базу данных что файл такой то, имеет идентификатор такой-то, в карточку записываются идентификаторы файлов для их быстрого поиска." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="425" width="470" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-21" value="Картинки есть" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="450" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lw-a6cB2GxTjt1xY8aOZ-23" value="Картинок нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
